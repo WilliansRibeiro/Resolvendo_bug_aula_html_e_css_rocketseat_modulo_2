@@ -1,6 +1,4 @@
-# Resolvendo_bug_aula_html_e_css_rocketseat_modulo_2
-
-# README - Alterações no Código HTML
+# README - Alterações no Código HTML Português 
 
 Neste documento README, vou explicar as alterações feitas no código HTML para transformar o "Código Quebrado" no "Código Arrumado". As correções realizadas visam melhorar a organização, semântica e acessibilidade do código.
 
@@ -22,3 +20,29 @@ Neste documento README, vou explicar as alterações feitas no código HTML para
    No "Código Arrumado" foram adicionados comentários para explicar a finalidade de cada seção do código HTML. Isso torna o código mais claro e facilita a compreensão das diferentes partes.
 
 Essas alterações visam aprimorar a organização, semântica e acessibilidade do código HTML, tornando-o mais claro e fácil de manter. O "Código Arrumado"  representa uma versão melhorada do código em relação ao "Código Quebrado", com as correções necessárias.
+
+
+
+
+# README - Changes in HTML Code English
+
+In this README document, I will explain the changes made to the HTML code to transform the "Broken Code" into the "Fixed Code." The corrections made aim to improve the organization, semantics, and accessibility of the code.
+
+## Changes Made:
+
+1. Comments Added for Explanation:
+   In the "Fixed Code," explanatory comments were added in various sections of the code. These comments provide a description of the purpose of different parts of the code, making it easier to understand what each section does.
+
+2. Navigation Menu Organization:
+   The navigation menu in the "Broken Code" contained an illustration image in the middle of the menu items, which is not a recommended practice. In the "Fixed Code," the menu was reorganized in a more conventional way, with menu items within an unordered list `<ul>`. This improves the menu structure.
+
+3. Rearranging the Call to Action Button:
+   In the "Fixed Code," the order of elements in the button was reversed. Now, the WhatsApp image comes after the text "Start now." This reordering makes the code more semantic, accessible, and understandable.
+
+4. Correction of Paragraph Spacing Formatting Error:
+   In the "Broken Code," there was a formatting error with `<br></br>`. This error was corrected in the "Fixed Code" to the correct format `<br />`, ensuring consistency and validity of markup.
+
+5. Adding Comments for Explanation of Markup Elements:
+   In the "Fixed Code," comments were added to explain the purpose of each section of the HTML code. This makes the code clearer and facilitates understanding of the different parts.
+
+These changes aim to enhance the organization, semantics, and accessibility of the HTML code, making it clearer and easier to maintain. The "Fixed Code" represents an improved version of the code compared to the "Broken Code," with the necessary corrections.
