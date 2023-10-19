@@ -1,0 +1,132 @@
+/* Definindo estilos para o corpo da página */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+
+  /* Criando um fundo com gradiente */
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+}
+
+/* Estilizando a div com a classe "page" que envolve o conteúdo principal */
+.page {
+  width: 1000px;
+  margin: 0 auto; /* Centralizando horizontalmente */
+  padding-top: 65px;
+}
+
+/* Estilizando a barra de navegação no topo da página */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+/* Estilizando a lista não ordenada na barra de navegação */
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none; /* Removendo marcadores de lista */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilizando os links */
+a {
+  text-decoration: none; /* Removendo sublinhado */
+  color: #1f1534; /* Definindo a cor do texto */
+}
+
+/* Aplicando a fonte "Mulish" a cabeçalhos e à lista não ordenada */
+h1,
+ul {
+  font-family: "Mulish", sans-serif;
+}
+
+/* Estilizando a seção principal da página */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Reduzindo a opacidade dos links na lista */
+ul li a {
+  opacity: 0.5;
+}
+
+/* Tornando os links em negrito e opacos quando hover */
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* Estilizando o cabeçalho principal (h1) */
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+  font-weight: normal;
+  width: 490px;
+}
+
+/* Estilizando o texto dentro do cabeçalho principal envolto em uma tag <span> */
+h1 span {
+  color: #89c5cc; /* Alterando a cor do texto */
+  font-weight: bold; /* Tornando o texto em negrito */
+}
+
+/* Estilizando os parágrafos dentro da seção de texto */
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0;
+}
+
+/* Estilizando os botões */
+button:hover {
+  background: #387d65; /* Alterando a cor de fundo quando hover */
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+
+  border: none;
+  padding: 14px 32px 15px;
+  background: #69b99d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilizando o rodapé da página */
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Estilizando o link no rodapé */
+footer a {
+  font-weight: bold; /* Tornando o texto em negrito */
+}
+
+/* Posicionando uma imagem decorativa no canto inferior direito da página */
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
